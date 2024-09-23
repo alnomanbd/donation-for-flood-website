@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Donation for Bangladesh</title>
+
+    
+
+    <!-- Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+
+    <!-- Custom Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<!-- Daisy UI -->
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS File -->
+    
+    <script src="./tailwind.config.js"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "rgb(249, 247, 243)",
+            },
+            fontFamily: {
+              Lexend: ["Lexend", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ Header Section Start ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <header class="bg-gray-50 sticky top-0 bg-primary shadow-md z-50 opacity-90">
+		<nav class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-6">
+			<div>
+				<a class="button" href="./index.html">Home</a>
+			</div>
+			<div class="flex items-center gap-2">
+				<img src="./assets/logo.png" alt="logo">
+				<span class="font-bold text-2xl">Donate Bangladesh</span>
+			</div>
+			<div class="flex items-center gap-2">
+				<img src="./assets/coin.png" alt="coin">
+				<span class="font-bold text-xl text-gray-500">5500</span><span class="font-bold text-xl text-gray-500"> BDT</span> 
+			</div>
+		</nav>
+	</header>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ Header Section End ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ Main Section Start ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <main class="">
+    	<!-- Faq Section -->
+		<section id="donation" class=" container mx-auto bg-white mt-12">
+			<div class="join join-vertical w-full">
+				<div class="flex items-center py-6">
+					<h2 class="font-bold text-3xl">Important FAQ </h2>
+					<img src="./assets/faq.gif" alt="faq" class="h-16 w-16">
+				</div>
+				<div class="collapse collapse-arrow join-item border-base-300 border rounded-lg">
+					<input type="radio" name="my-accordion-4" checked="checked" />
+					<div class="collapse-title text-xl font-medium">What are the current donation campaigns?</div>
+					<div class="collapse-content">
+						<p>We are fundraising for flood relief in Noakhali and Feni, Bangladesh, as well as for injured individuals in the Quota movement.</p>
+					</div>
+				</div>
+				<div class="collapse collapse-arrow join-item border-base-300 border">
+					<input type="radio" name="my-accordion-4" />
+					<div class="collapse-title text-xl font-medium">How can I track the impact of my donation?</div>
+					<div class="collapse-content">
+					  <p>We share updates on our website and social media about how your contributions are making a difference.</p>
+					</div>
+				</div>
+				
+				  <div class="collapse collapse-arrow join-item border-base-300 border">
+					<input type="radio" name="my-accordion-4" />
+					<div class="collapse-title text-xl font-medium">How will my donation be used?</div>
+					<div class="collapse-content">
+						<p>Donations will provide essential supplies like food, clean water, and medical assistance to those affected by these crises.</p>
+					</div>
+				</div>
+				
+				<div class="collapse collapse-arrow join-item border-base-300 border rounded-lg">
+					<input type="radio" name="my-accordion-4" />
+					<div class="collapse-title text-xl font-medium">Is my donation tax-deductible?</div>
+					<div class="collapse-content">
+						<p>Donations may be tax-deductible depending on local regulations. Check with your tax authority for details.</p>
+					</div>
+				</div>
+			</div>
+    	</section>
+
+    </main>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ Main Section End ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Section Start ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <footer class="h-32 bg-gray-50 w-full mt-16"></footer>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Section End ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Script File -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
